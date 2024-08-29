@@ -1,0 +1,56 @@
+
+.job-item-container{
+    width: 100%;
+    background-color: #272727;
+    min-height: 80px;
+    margin : 15px 0 15px 0;
+    border-radius: 15px;
+    color : white;
+    padding : 15px 10px 15px 10px
+}
+.company-logo{
+    height: 70px;
+    width: auto;
+}
+.title{
+    font-size: 1rem;
+}
+.location{
+    font-size: 0.8rem;
+}
+.description{
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+}
+.jobDescription{
+    font-size: 0.8rem;
+}
+/* Extra Small Devices (Portrait Phones, Less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+/* Small Devices (Landscape Phones, 576px and up) */
+@media (min-width: 576px) {
+    .title{
+        font-size: 1.3rem;
+    }
+    .job-item-container{
+        padding : 20px 25px 20px 25px;
+    }
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large Devices (Desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra Large Devices (Large Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

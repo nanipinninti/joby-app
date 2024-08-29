@@ -1,0 +1,105 @@
+.search-input{
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 5px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #cbd5e1;
+    border-right: none;
+    color: white;
+}
+.search-icon-button{
+    background-color:  #272727;
+    border: 1px solid #cbd5e1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 5px;
+    border-left: none;
+    width: 10%;
+}
+
+.profile-container{
+    background: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-color: rgb(212, 231, 241);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    border-radius: 25px;    
+    width: 100%;
+    padding : 15px 0 15px 0;
+}
+.profile-img-url{
+    width: 50px;
+    height: auto;
+}
+.profile-name{
+    color: #6366f1;
+    font-size: 1rem;
+}
+.profile-bio{
+    color: #7e858e;
+    font-size: 0.8rem;
+}
+
+/* sortings */
+.sortings{
+    color: white;
+}
+.sort-head{
+    font-size: 1rem;
+}
+.sort-option{
+    font-size: 0.8rem;
+}
+.separtor{
+    width: 100%;
+    border: 1px solid white;
+}
+.retry-profile-button{
+    height: 40px;
+    border-radius: 8px;
+    background-color: #4f46e5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+}
+
+/* Extra Small Devices (Portrait Phones, Less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+/* Small Devices (Landscape Phones, 576px and up) */
+@media (min-width: 576px) {
+    
+    
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large Devices (Desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jobs{
+        max-height: 80vh;
+        overflow-y: auto;
+        border-radius: 5px;
+    }
+    .jobs::-webkit-scrollbar {
+        display: none; /* Completely hide the scrollbar */
+      }
+}
+
+/* Extra Large Devices (Large Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

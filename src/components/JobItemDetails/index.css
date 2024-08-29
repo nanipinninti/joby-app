@@ -1,0 +1,104 @@
+
+.job-item-container-2{
+    background-color: #272727;
+    min-height: 80px;
+    margin : 15px 0 15px 0;
+    border-radius: 15px;
+    color : white;
+    padding : 15px 10px 15px 10px;
+    font-size: 18px;
+}
+.company-logo{
+    height: 70px;
+    width: auto;
+}
+.title{
+    font-size: 1em;
+}
+.location{
+    font-size: 0.8em;
+}
+.description{
+    font-size: 0.95em;
+    margin-bottom: 5px;
+}
+.jobDescription{
+    font-size: 0.8em;
+}
+.skills-head{
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+.life-at-company-img{
+    width: 100%;
+    height: auto;
+}
+
+.failure-button{
+    height: 35px;
+    border-radius: 8px;
+    background-color: #4f46e5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    width: 120px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.failure-head{
+    font-size: 1em;
+    margin-top: 25px;
+}
+.failure-sub-head{
+    font-size: 0.8em;
+}
+.failure-img{
+    width: 90%;
+    height: auto;
+}
+/*
+/* Small Devices (Landscape Phones, 576px and up) */
+@media (min-width: 576px) {
+    .title{
+        font-size: 1.3em;
+    }
+    .job-item-container-2{
+        padding : 30px;
+        font-size: 22px;
+    }
+    .life-at-company-img{
+        width: 80%;
+        height: auto;
+        
+    }
+    .failure-img{
+        width: 30%;
+        height: auto;
+    }
+    .failure-component{
+        font-size: 20px;
+    }
+    .no-job-component img{
+        width: 60%;
+        margin-top: 50px;
+    }
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large Devices (Desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra Large Devices (Large Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

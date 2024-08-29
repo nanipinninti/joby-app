@@ -1,0 +1,66 @@
+.body{
+  background-color: #000000;
+}
+.login-container{
+  background-color: #272727;
+  border-radius: 8px;
+  padding : 20px 15px 10px 15px;
+} 
+.login-form{
+  color: white;
+  padding: 15px;
+}
+.login-form input{
+    border-radius: 5px;
+    border: 1px solid #64748b;
+    background: transparent;
+    outline: none;
+    padding: 5px;
+    padding-left: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.login-question{
+  font-size: 0.8rem;
+  padding-left: 0px;
+}
+.submit-button{
+    background-color: #4f46e5;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.error-msg{
+  color : #ff0b37;
+  font-size: 0.75rem;
+  position: relative;
+  top : 10px;
+  padding-left: 0;
+}
+
+/* Extra Small Devices (Portrait Phones, Less than 576px) */
+@media (max-width: 575.98px) {
+    
+  }
+  
+  /* Small Devices (Landscape Phones, 576px and up) */
+  @media (min-width: 576px) {
+    
+  }
+  
+  /* Medium Devices (Tablets, 768px and up) */
+  @media (min-width: 768px) {
+
+  }
+  
+  /* Large Devices (Desktops, 992px and up) */
+  @media (min-width: 992px) {
+
+  }
+  
+  /* Extra Large Devices (Large Desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+  }

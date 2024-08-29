@@ -1,0 +1,32 @@
+.head{
+  background-color: #272727;
+  padding: 20px 30px 20px 30px;
+}
+.icon{
+  color: white;
+  width: 30px;
+  height: auto;
+}
+.logout-button{
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #6366f1;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color : white;
+}
+
+.head-text{
+  color : white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+@media screen and (min-width: 572px) {
+  .head {
+     padding-left: 80px;
+     padding-right: 80px;
+  }
+}
