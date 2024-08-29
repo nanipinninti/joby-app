@@ -10,14 +10,14 @@ import Cookies from 'js-cookie';
 const Head = ()=>{
         const navigate = useNavigate();
         const toJobs = ()=>{
-            navigate("/jobs")
+            navigate("/joby-app/jobs")
         }
         const toHome = ()=>{
-            navigate('/')
+            navigate('/joby-app/')
         }
         const logoutFunction = ()=>{
             Cookies.remove('login_token')
-            navigate('/login')
+            navigate('/joby-app/login')
         }
         return(
             <div className='col-12 head d-flex justify-content-between align-items-center'>
@@ -32,8 +32,8 @@ const Head = ()=>{
                     </div>
                     <div className='d-none d-lg-flex justify-content-between'>
                         <div className='d-flex gap-4'>
-                            <Link  className='head-text' to="/">Home</Link>
-                            <Link  className='head-text' to="/jobs">Jobs</Link>
+                            <Link  className='head-text' to="/joby-app/">Home</Link>
+                            <Link  className='head-text' to="/joby-app/jobs">Jobs</Link>
                         </div>
                     </div>
                     <button className='logout-button d-none d-lg-flex' onClick={logoutFunction}>

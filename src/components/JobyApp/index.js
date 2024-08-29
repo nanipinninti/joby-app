@@ -14,12 +14,12 @@ class JobyApp extends Component{
             <div className='body'>
                 <BrowserRouter className="container">
                     <Routes>
-                        <Route path='/' element={<ProtectedRoute element={<Home />}/>}/>
-                        <Route path='/login' element = {<Login />}/>
-                        <Route path='/jobs' element={<ProtectedRoute element={<Jobs />}/>}/>
-                        <Route  path='/jobs/:id' element={<ProtectedRoute element={<JobItemDetails />}/>}/>
-                        <Route path='/not-found' element={<NotFound/>}/>
-                        <Route path='*' element={<Navigate to={'/not-found'}/>}/>
+                        <Route path='/joby-app/' element={<ProtectedRoute element={<Home />}/>}/>
+                        <Route path='/joby-app/login' element = {<Login />}/>
+                        <Route path='/joby-app/jobs' element={<ProtectedRoute element={<Jobs />}/>}/>
+                        <Route  path='/joby-app/jobs/:id' element={<ProtectedRoute element={<JobItemDetails />}/>}/>
+                        <Route path='/joby-app/not-found' element={<NotFound/>}/>
+                        <Route path='*' element={<Navigate to={'/joby-app/not-found'}/>}/>
                     </Routes>
                 </BrowserRouter>
             </div>

@@ -28,7 +28,7 @@ const Login =()=>{
                 // console.log(data)
                 const jwt_token = data.token
                 Cookies.set('login_token',jwt_token)
-                navigate("/")
+                navigate("/joby-app/")
             }
             else{
                 setErrorMsg('*'+data.message)
@@ -40,7 +40,7 @@ const Login =()=>{
         }
     }
 
-    if (Cookies.get('login_token')!== undefined) return <Navigate to={'/'} />
+    if (Cookies.get('login_token')!== undefined) return <Navigate to={'/joby-app/'} />
         return(
             <div className='row d-flex flex-column justify-content-center align-items-center' style={{height:'90vh'}}>
                 <div className='col-10 col-lg-3 login-container'>
