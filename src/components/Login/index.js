@@ -22,11 +22,11 @@ const Login =()=>{
         try{
             const api = 'http://35.154.82.187:5001/nani/login'
             const next_wave_api = "https://apis.ccbp.in/login"
-            const response = await fetch(api,options)
+            const response = await fetch(next_wave_api,options)
             const data = await response.json()
             if (response.ok){
                 // console.log(data)
-                const jwt_token = data.token
+                const jwt_token = data.token || data.jwt_token
                 Cookies.set('login_token',jwt_token)
                 navigate("/joby-app/")
             }
