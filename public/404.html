@@ -1,0 +1,8 @@
+<script type="text/javascript">
+    // Redirect all 404 requests to index.html
+    var pathname = window.location.pathname;
+    if (pathname.startsWith('/joby-app/')) {
+      window.location.replace('/joby-app/index.html' + window.location.search);
+    }
+  </script>
+  
