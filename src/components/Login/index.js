@@ -8,19 +8,19 @@ const Login =()=>{
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [errorMsg , setErrorMsg] = useState('');
+    
     const navigate = useNavigate();
     const onsubmit = async (event)=>{
         event.preventDefault()
         const UserDetails = {username,password}
         const options = {
             method : "POST",
-            headers : {
-                'Content-Type': "application/json"
-            },
             body : JSON.stringify(UserDetails)
         }
         try{
             const api = 'http://35.154.82.187:5001/nani/login'
+
+            const local_api = "http://localhost:5001/nani/login"
             const next_wave_api = "https://apis.ccbp.in/login"
             const response = await fetch(next_wave_api,options)
             const data = await response.json()
