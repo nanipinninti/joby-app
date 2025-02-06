@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
 const Login =()=>{
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+    const [username, setUsername] = useState('Rahul');
+    const [password, setPassword] = useState('Rahul@2021');
     const [errorMsg , setErrorMsg] = useState('');
     
     const navigate = useNavigate();
